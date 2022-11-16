@@ -1,0 +1,122 @@
+name: eso
+description: 亦搜，亦看，亦闻
+publish_to: none
+version: 1.22.16+12216
+homepage: https://github.com/mabdc/eso
+author: mabdc
+
+environment:
+  sdk: ">=2.7.0 <3.2.0"
+
+dependencies:
+  about: ^2.0.0
+  archive: ^3.1.2
+  audioplayers: ^1.0.1
+  battery_plus: ^2.1.3
+  cached_network_image: ^3.0.0
+  device_info: ^2.0.0
+  dlna:
+    path: modules/DLNA-Dart
+  encrypt: ^5.0.0
+  equatable: ^2.0.0
+  fast_gbk: ^0.1.2+1
+  filesystem_picker: ^2.0.0
+  floor: ^1.0.1
+  webview_windows: ^0.1.6
+  # xpath_selector: ^2.2.4
+  xpath_selector:
+    path: modules/xpath_selector
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+  flutter_highlight: ^0.6.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_qjs: ^0.3.6
+  # text_to_speech: ^0.2.3
+  flutter_tts: ^3.5.3
+  flutter_webview:
+    path: modules/flutter_webview
+  html: ^0.15.0
+  http: ^0.13.1
+  image_gallery_saver: ^1.6.8
+  intl: ^0.17.0
+  json_path: ^0.3.0
+  matrix_gesture_detector: ^0.1.0
+  oktoast: ^3.0.0
+  outline_material_icons: ^0.1.1
+  package_info_plus: ^1.0.0
+  path_provider: ^2.0.1
+  permission_handler: ^7.0.0
+  photo_view: ^0.13.0
+  provider: ^5.0.0
+  device_display_brightness: ^0.0.6
+  scrollable_positioned_list: ^0.1.10
+  share_plus: ^4.0.2
+  shared_preferences: ^2.0.13
+  sqflite_common_ffi: ^2.0.0
+  text_composition:
+    path: modules/text_composition
+  url_launcher: ^6.0.3
+  uuid: ^3.0.4
+  video_player: ^2.1.1
+  # video_player_macos:
+  #   git:
+  #     url: https://github.com/cbenhagen/plugins.git
+  #     path: packages/video_player/video_player_macos
+  #     ref: video_player_macos_new
+  # video_player_windows:
+  #   git:
+  #     url: https://github.com/anirudhb/flutter_packages.git
+  #     path: video_player_windows
+  webdav:
+    # git: https://github.com/timestee/dart-webdav
+    path: modules/dart-webdav
+  webview_flutter:
+    path: modules/webview_flutter
+  http_multi_server: ^3.2.0
+  window_manager: ^0.1.5
+  hive_flutter: ^1.1.0
+  # explorer: ^2.1.0
+  epubx: ^3.0.0
+  win32: ^2.4.2
+  file_picker: ^4.5.1
+  flutter_inappwebview: ^5.4.3+7
+  flutter_hooks: ^0.18.5+1
+
+dev_dependencies:
+  build_runner: ^1.11.5
+  floor_generator: ^1.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - player.html
+    - CHANGELOG.md
+    - README.md
+    - LICENSE
+    - lib/assets/
+    - assets/bg/
+    - assets/ba/
+    - assets/JsDecoder.js
+  fonts:
+    - family: fonticons
+      fonts:
+        - asset: fonts/fonticons.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto/Roboto-Black.ttf
+          weight: 900
